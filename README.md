@@ -8,3 +8,5 @@ Run benchmark using:
 ```bash
 yarn test
 ```
+
+![Benchmark](benchmark.png)
