@@ -1,5 +1,6 @@
-import {palindromeDescendant as craig} from './craig.js';
-import {palindromeDescendant as matt} from './matt.js';
+import {palindromeDescendant as craig} from './implementations/craig.js';
+import {palindromeDescendant as matt} from './implementations/matt.js';
+import {PalindromeDescendant as alex} from './implementations/alex.js';
 
 describe('PalindromeDescendant', () => {
         it('matts should give the correct result', () =>
@@ -8,6 +9,10 @@ describe('PalindromeDescendant', () => {
 
         it('craigs should give the correct result', () =>
             test(craig)
+        );
+
+        it('alexs should give the correct result', () =>
+            test(alex)
         );
     }
 );
